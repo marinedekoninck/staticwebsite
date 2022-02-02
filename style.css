@@ -1,0 +1,47 @@
+html, body{
+margin: 0;
+padding: 0;
+}
+
+.grid {
+margin: 3rem;
+padding: 3rem;
+display: grid;
+grid-template-columns: 43% 43% 13%;
+}
+
+.productpage{
+margin: 5rem;
+padding: 5rem;
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.productlist{
+    margin: 10rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    }
+
+.navmenu{
+margin: 10px;
+display: grid;
+grid-template-columns: 43% 43% 13%;
+}
+
+h1{
+padding: 50px;
+text-align: center;
+}
+
+header{
+padding: 0;
+margin: 0;
+background-color: rgb(221, 221, 221);
+height: 55px;
+}
+
+a{
+color: black;
+}
